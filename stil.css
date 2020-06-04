@@ -1,0 +1,36 @@
+
+         .tabs li{
+            position: relative;
+            top: 7px;
+            left: 1px;
+            background-color: grey;
+            color:rgb(218, 190, 218);
+            display: inline;
+            padding: 10px;
+            cursor:pointer;
+         }
+         .tab{
+            font-size: 16px;
+            border: violet;
+            height: 16;
+         }
+         .tab_item{
+            background-color: #fff;
+            box-sizing:border-box;
+            width: 32%;
+            min-height:200px;  
+            
+         }
+         .tab_content{
+             margin-left: 5px;
+         }
+         .tabs li:hover {
+            color:#8bd4ff;
+        }
+        .tabs li.active {
+            color:#a1ddf8;
+             opacity: 1;
+        }
+        .tabs li.active:hover {
+            color:#f83030;
+        }
